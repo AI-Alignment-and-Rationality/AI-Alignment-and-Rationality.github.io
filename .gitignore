@@ -2,3 +2,7 @@ public
 resources
 **/.hugo_build.lock
 archetypes/default.md
+_hugo.yaml
+
+managed_context
+test_suite_analysis
