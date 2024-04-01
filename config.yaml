@@ -7,7 +7,7 @@ params:
   ShowBreadCrumbs: true
   homeInfoParams:
     Title: Welcome to My Snazzy Blog 
-    Content: sponsored by Open Philanthropy
+    Content: sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
 
   socialIcons: # optional
     - name: Open Philanthropy
@@ -24,7 +24,7 @@ outputs:
 menu:
   main:
     - name: Archive
-      url: archives
+      url: archives/
       weight: 5
     - name: Search
       url: search/
