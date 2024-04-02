@@ -20,7 +20,7 @@ Location: Qronox’s apartment
 - TheBlindMeister
 - Sparky
 
-<!-- ![horse.jpg](.../assets/horse.jpg "he watches") -->
+![horse.jpg](../assets/horse.jpg "he watches")
 
 ## Goals and benefits of and what even is UAAR
 1. Understanding AI and AI safety
