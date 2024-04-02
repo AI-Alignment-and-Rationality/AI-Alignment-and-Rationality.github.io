@@ -8,7 +8,7 @@ params:
   homeInfoParams:
     Title: Welcome to My Snazzy Blog 🐴
     Content: > 
-      ![horse.jpg](../assets/horse.jpg "He watches")
+      ![horse.jpg](/horse.jpg "He watches")
       sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
 
   socialIcons: # optional

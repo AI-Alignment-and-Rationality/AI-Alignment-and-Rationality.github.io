@@ -3,8 +3,7 @@ title : 'Meetup1'
 date : 2024-04-02T01:00:47+07:00
 draft : false  
 cover:
-#   image: https://i.kym-cdn.com/entries/icons/facebook/000/048/743/right_ear_left_ear.jpg
-    image: ../assets/bible-cn_mozart-2x.png
+    image: /bible-cn_mozart-2x.png
 ---
 
 # Session 1: Introduction to Machine Learning and AI safety
@@ -20,7 +19,7 @@ Location: Qronox’s apartment
 - TheBlindMeister
 - Sparky
 
-![horse.jpg](../assets/horse.jpg "he watches")
+<!-- ![horse.jpg](/horse.jpg "he watches") -->
 
 ## Goals and benefits of and what even is UAAR
 1. Understanding AI and AI safety
