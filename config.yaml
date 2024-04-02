@@ -6,8 +6,10 @@ theme: papermod
 params:
   ShowBreadCrumbs: true
   homeInfoParams:
-    Title: Welcome to My Snazzy Blog 
-    Content: sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
+    Title: Welcome to My Snazzy Blog 🐴
+    Content: > 
+      ![horse.jpg](../assets/horse.jpg "He watches")
+      sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
 
   socialIcons: # optional
     - name: Open Philanthropy
