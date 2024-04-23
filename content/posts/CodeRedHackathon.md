@@ -1,12 +1,10 @@
 ---
-title : 'CodeRedHackathon'
+title : 'Session 5: METR + Apart Research: Code Red Hackathon'
 date : 2024-04-04T23:33:51+07:00
 draft : false
 ---
 
-## Session 5: METR + Apart Research: Code Red Hackathon
-
-### Preparation (22/3/2024 - 23/3/2024)
+## Preparation (22/3/2024 - 23/3/2024)
 
 Working on the initial phase of coming up with and submitting ideas for bounties were: Jord, Mogu, Qronox, Skrubz
 Running tally for bounties per person:
@@ -16,9 +14,9 @@ Running tally for bounties per person:
 - Qronox: 40$
 - Skrubz: 20$
 
-### Jam Time! (23/3/2024 - 24/4/2024)
+## Jam Time! (23/3/2024 - 24/4/2024)
 
-#### 23/3/2024
+### 23/3/2024
 
 On the evening of 23/3/2024, Jord stayed over at Mogu’s for the night apartment to cowork on the specifications (and submit new ideas).  
 Specifically, they worked on specifications for these ideas:
@@ -29,14 +27,14 @@ Specifically, they worked on specifications for these ideas:
 
 Meanwhile, Qronox stayed home and continued work on idea submission.  
 
-##### Running tally for bounties per person
+#### Running tally for bounties per person
 
 - Jord: 220$ (the 200 came from a successful specification)
 - Mogu: 40$
 - Qronox: 60$
 - Skrubz: 20$
 
-#### 24/4/2024
+### 24/4/2024
 
 By morning of 24/4/2024, Gumperto and Qronox came to Mogu’s apartment to join the hackathon
 
@@ -63,7 +61,7 @@ After an afternoon of hard but unsuccessful work, we went home and continued wit
 
 With that, the jam was (practically) over. While we could still continue making submissions for bounties, the hype died down and we returned to our regular activities. It was quite fun discussing ideas with everyone, even if we perhaps could have been more productive.
 
-##### Final tally for bounties per person
+#### Final tally for bounties per person
 
 - Jord: 220$
 - Mogu: 40$

@@ -1,12 +1,10 @@
 ---
-title : 'Meetup1'
+title : 'Session 1: Introduction to Machine Learning and AI safety'
 date : 2024-04-02T01:00:47+07:00
 draft : false  
 cover:
     image: /bible-cn_mozart-2x.png
 ---
-
-## Session 1: Introduction to Machine Learning and AI safety
 
 We recapped a bit of the two 3B1B vids on Neural Networks and Gradient Descent. Also went into some more detail about some different activation functions (nothing too in detail just their general shape essentially)  
 

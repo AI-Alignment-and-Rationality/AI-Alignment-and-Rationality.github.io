@@ -1,10 +1,8 @@
 ---
-title : 'Meetup3'
+title : ' Session 3: Potential of AI & Introduction to AI Alignment '
 date : 2024-04-04T21:33:08+07:00
 draft : false  
 ---
-
-## Session 3: Potential of AI & Introduction to AI Alignment
 
 ### TensorTrust Brainstorming
 

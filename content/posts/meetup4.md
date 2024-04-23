@@ -1,11 +1,8 @@
 ---
-title : 'Meetup4'
+title : ' Session 4: Intro to RHLF and Forecasting'
 date : 2024-04-04T21:53:44+07:00
 draft : false 
 ---
-
-## Session 4: Intro to RHLF and Forecasting
-
 ### Intro to RLHF
 
 - We watched [How a Coding Error Optimized GPT-2 for Bad Behaviour Instead of Good](https://youtu.be/qV_rOlHjvvs) as introductory material from Rational Animations about failure trying to do RLHF in OpenAI’s training of GPT2, due to a bug in its reward function.

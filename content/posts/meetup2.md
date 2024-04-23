@@ -1,10 +1,9 @@
 ---
-title : 'Meetup2'
+title : 'Session 2: Risks from Learnt Optimization'
 date : 2024-04-04T21:26:41+07:00
 draft : false 
 ---
 
-## Session 2: Risks from Learnt Optimization
 ![qronox writes on the whiteboard](/qronox_whiteboard_skrubz.png)
 ### Mesa-optimization and inner misalignment
 We read and discussed [Risks from Learned Optimization](https://www.alignmentforum.org/s/r9tYkB2a8Fp4DN8yB)
