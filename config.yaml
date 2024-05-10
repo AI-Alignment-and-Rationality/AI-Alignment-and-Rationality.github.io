@@ -15,7 +15,7 @@ params:
     - name: Open Philanthropy
       url: "https://www.openphilanthropy.org/"
     - name: "email"
-      url: "mailto:"
+      url: "mailto:jordnguyen43@gmail.com"
 
 outputs:
   home:
