@@ -6,3 +6,6 @@ _hugo.yaml
 
 managed_context
 test_suite_analysis
+.direnv/bin/nix-direnv-reload
+.direnv/nix-profile-unknown
+.direnv/nix-profile-unknown.rc
