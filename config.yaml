@@ -25,6 +25,9 @@ outputs:
 
 menu:
   main:
+    - name: Our Research
+      url: /research/
+      weight: 4
     - name: Archive
       url: archives/
       weight: 5
