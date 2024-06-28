@@ -4,4 +4,11 @@ date : 2024-05-06
 draft : false 
 ---
 
-https://www.apartresearch.com/project/gpt-4-is-righter-than-gpt-3-5-replicating-findings-on-political-bias-in-llms-for-non-western-democracies
+**Abstract**
+
+Replicating Findings on Political Bias in LLMs for non-Western Democracies
+
+By **Huu Khiem "Gumperto" Hoang**, **Jord Nguyen**
+
+Read this paper [here](
+https://www.apartresearch.com/project/gpt-4-is-righter-than-gpt-3-5-replicating-findings-on-political-bias-in-llms-for-non-western-democracies)
