@@ -12,3 +12,5 @@ This paper introduces rAInboltBench, a comprehensive benchmark designed to evalu
 By **Le "Qronox" Lam**, Aleksandr Popov, **Jord Nguyen**, **Trung Dung "mogu" Hoang**, Marcel M, Felix Michalak
 
 Read the paper [here](https://www.apartresearch.com/project/rainboltbench-benchmarking-user-location-inference-through-single-images)
+
+This project is currently in development at the Apart Lab Fellowship.
