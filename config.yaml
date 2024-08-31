@@ -1,19 +1,49 @@
 baseURL: https://ai-alignment-and-rationality.github.io/
 languageCode: en-us
-title: AI alignment and rationality reading group's blog
+title: AI Safety and Rationality Students Hanoi
 theme: papermod
 
 params:
   ShowBreadCrumbs: true
-  homeInfoParams:
-    Title: Welcome to My Snazzy Blog 🐴
-    Content: > 
-      ![horse.jpg](/horse.jpg "He watches")
-      sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
+  # ShowWordCount: true
+  pluralizeListTitles: false
+  label:
+    text: "ASRS Hanoi"
+    icon: "logo/asrs.png"
+    iconHeight: 35
+
+  # homeInfoParams:
+  #   Content: > 
+  #     ![hasrs.png](logo/hasrs.png "Welcome to ASRS Hanoi!")
+  #     sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
+ 
+  profileMode:
+    enabled: true
+    title: "ASRS Hanoi" # optional default will be site title
+    subtitle: "Sponsored by **[Open Philanthropy](https://www.openphilanthropy.org/)**"
+    imageUrl: "logo/asrs.png" # optional
+    imageTitle: "ASRS Hanoi" # optional
+    imageWidth: 250 # custom size
+    imageHeight: 241 # custom size
+    buttons:
+      - name: About
+        url: "/about/"
+      - name: Our Team
+        url: "/members/"
+      - name: Our Research
+        url: "/research/"
+
+  assets:
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon-16x16.png"
+    favicon32x32: "favicon/favicon-32x32.png"
+    apple_touch_icon: "favicon/apple-touch-icon.png"
 
   socialIcons: # optional
     - name: Open Philanthropy
       url: "https://www.openphilanthropy.org/"
+    - name: "github"
+      url: "https://github.com/AI-Alignment-and-Rationality"
     - name: "email"
       url: "mailto:jordnguyen43@gmail.com"
 
@@ -25,12 +55,24 @@ outputs:
 
 menu:
   main:
+    - name: About
+      url: /about/
+      weight: 1
+    - name: Our Team
+      url: /members/
+      weight: 2
     - name: Our Research
       url: /research/
+      weight: 3
+    - name: Opportunities
+      url: /opportunity/
       weight: 4
-    - name: Archive
-      url: archives/
+    - name: Sessions
+      url: /posts/
       weight: 5
+    # - name: Archive
+    #   url: archives/
+    #   weight: 6
     - name: Search
       url: search/
       weight: 10
