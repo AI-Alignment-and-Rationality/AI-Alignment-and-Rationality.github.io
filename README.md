@@ -1,6 +1,6 @@
-# (USTH) AI Alignment and Rationality (now ASRS Hanoi)
-Welcome to the repository for the [official website for AI Safety and Rationality 
-Students Hanoi](https://ai-alignment-and-rationality.github.io/) (previously USTH AI Alignment and Rationality)!
+# (USTH) AI Alignment and Rationality (now AI Safety Hanoi)
+Welcome to the repository for the [official website for AI Safety Hanoi](https://ai-alignment-and-rationality.github.io/)
+(previously USTH AI Alignment and Rationality)!
 
 ## Table of contents
 1. [Contributing](#contributing)

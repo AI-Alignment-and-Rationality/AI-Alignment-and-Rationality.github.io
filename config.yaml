@@ -1,6 +1,6 @@
 baseURL: https://ai-alignment-and-rationality.github.io/
 languageCode: en-us
-title: AI Safety and Rationality Students Hanoi
+title: AI Safety Hanoi
 theme: papermod
 
 params:
@@ -8,7 +8,7 @@ params:
   # ShowWordCount: true
   pluralizeListTitles: false
   label:
-    text: "ASRS Hanoi"
+    text: "AI Safety Hanoi"
     icon: "logo/asrs.png"
     iconHeight: 35
 
@@ -19,10 +19,10 @@ params:
  
   profileMode:
     enabled: true
-    title: "ASRS Hanoi" # optional default will be site title
-    subtitle: "Sponsored by **[Open Philanthropy](https://www.openphilanthropy.org/)**"
+    title: "AI Safety Hanoi" # optional default will be site title
+    subtitle: "Dedicated to making AI safer"
     imageUrl: "logo/asrs.png" # optional
-    imageTitle: "ASRS Hanoi" # optional
+    imageTitle: "AI Safety Hanoi" # optional
     imageWidth: 250 # custom size
     imageHeight: 241 # custom size
     buttons:
