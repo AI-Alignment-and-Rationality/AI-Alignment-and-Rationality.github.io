@@ -40,8 +40,12 @@ params:
     apple_touch_icon: "favicon/apple-touch-icon.png"
 
   socialIcons: # optional
-    - name: Open Philanthropy
-      url: "https://www.openphilanthropy.org/"
+    # - name: Open Philanthropy
+    #   url: "https://www.openphilanthropy.org/"
+    - name: "linkedin"
+      url: "https://www.linkedin.com/company/ai-safety-and-rationality-students-hanoi/"
+    - name: "facebook"
+      url: "https://facebook.com" #PLACEHOLDER
     - name: "github"
       url: "https://github.com/AI-Alignment-and-Rationality"
     - name: "email"
