@@ -31,10 +31,11 @@ the Discord server in the #grebsite channel!
 
 ## To-do
 - Make the website look more presentable
-- Bio page for organisers and members (2 - 3 sentence desc, linkedin)
-- Touch up the research page
-- Technical blog posts placeholder
+- Bio page for organisers and members (2 - 3 sentence desc, linkedin, maybe have pictures)
+- Touch up the research page (embed PDFs)
+- Technical blog posts
 - Opportunity board
+- Potential Vietnamese version for some things (hackathon announcements, etc)
 
 ## License
 
