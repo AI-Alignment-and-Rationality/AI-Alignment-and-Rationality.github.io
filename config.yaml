@@ -1,14 +1,67 @@
 baseURL: https://ai-alignment-and-rationality.github.io/
 languageCode: en-us
-title: AI Safety Hanoi
+title: Hanoi AI Safety Network
 theme: papermod
 
+languages:
+    en:
+      LanguageName: "🇺🇸"
+      weight: 1
+      contentDir: content/en
+      params:
+        languageAltTitle: "English"
+      
+    vi:
+      LanguageName: "🇻🇳"
+      weight: 2
+      menu:
+        main:
+          - identifier: about
+            name: "Giới thiệu"
+            url: /about/
+            weight: 10
+          - identifier: events
+            name: "Sự kiện"
+            url: /events/
+            weight: 20
+          - identifier: projects
+            name: "Dự án"
+            url: /projects/
+            weight: 30
+          - identifier: members
+            name: "Thành viên"
+            url: "/members/"
+            weight: 40
+          - identifier: partners
+            name: ""
+            url: "/partners/"
+            weight: 50
+      contentDir: content/vi
+      params:
+        languageAltTitle: "Tiếng Việt"
+        profilemode:
+          enabled: true
+          title: "Hanoi AI Safety Network" # optional default will be site title
+          subtitle: "Cùng huớng đến an toàn AI"
+          imageurl: "logo/asrs.png" # optional
+          imagetitle: "Hanoi AI Safety Network" # optional
+          imagewidth: 250 # custom size
+          imageheight: 241 # custom size
+          buttons:
+            - name: "Giới thiệu"
+              url: "/about/"
+            - name: "Dự án"
+              url: "/projects/"
+            - name: "Thành viên"
+              url: "/members/"
+                         
 params:
   ShowBreadCrumbs: true
   # ShowWordCount: true
   pluralizeListTitles: false
+  enableEmoji: true
   label:
-    text: "AI Safety Hanoi"
+    text: "Hanoi AI Safety Network"
     icon: "logo/asrs.png"
     iconHeight: 35
 
@@ -17,29 +70,29 @@ params:
   #     ![hasrs.png](logo/hasrs.png "Welcome to ASRS Hanoi!")
   #     sponsored by [Open Philanthropy](https://www.openphilanthropy.org/).
  
-  profileMode:
+  profilemode:
     enabled: true
-    title: "AI Safety Hanoi" # optional default will be site title
+    title: "Hanoi AI Safety Network" # optional default will be site title
     subtitle: "Dedicated to making AI safer"
-    imageUrl: "logo/asrs.png" # optional
-    imageTitle: "AI Safety Hanoi" # optional
-    imageWidth: 250 # custom size
-    imageHeight: 241 # custom size
+    imageurl: "logo/asrs.png" # optional
+    imagetitle: "Hanoi AI Safety Network" # optional
+    imagewidth: 250 # custom size
+    imageheight: 241 # custom size
     buttons:
       - name: About
         url: "/about/"
+      - name: Our Projects
+        url: "/projects/"
       - name: Our Team
         url: "/members/"
-      - name: Our Research
-        url: "/research/"
-
+        
   assets:
     favicon: "favicon/favicon.ico"
     favicon16x16: "favicon/favicon-16x16.png"
     favicon32x32: "favicon/favicon-32x32.png"
     apple_touch_icon: "favicon/apple-touch-icon.png"
 
-  socialIcons: # optional
+  socialIcons:
     # - name: Open Philanthropy
     #   url: "https://www.openphilanthropy.org/"
     - name: "linkedin"
@@ -62,21 +115,27 @@ menu:
     - name: About
       url: /about/
       weight: 1
+    - name: Events
+      url: /events/
+      weight: 2
+    - name: Our Projects
+      url: /projects/
+      weight: 3
     - name: Our Team
       url: /members/
-      weight: 2
-    - name: Our Research
-      url: /research/
-      weight: 3
-    - name: Opportunities
-      url: /opportunity/
       weight: 4
-    - name: Sessions
-      url: /posts/
+    - name: Partners
+      url: /partners/
       weight: 5
+    # - name: Opportunities
+    #   url: /opportunity/
+    #   weight: 6
+    # - name: Sessions
+    #   url: /posts/
+    #   weight: 5
     # - name: Archive
     #   url: archives/
     #   weight: 6
-    - name: Search
-      url: search/
-      weight: 10
+    # - name: Search
+    #   url: search/
+    #   weight: 10
