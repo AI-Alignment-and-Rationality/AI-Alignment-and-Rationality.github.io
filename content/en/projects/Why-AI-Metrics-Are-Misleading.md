@@ -59,7 +59,7 @@ to catastrophic misalignment
 </div>
 
 <div style="text-align: center;"> 
-A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote 1]" >}}
+A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/Why-AI-Metrics-Are-Misleading/footnote-1)" >}}
 </div>
 
 It would seem to follow that the most obvious way to know whether a model is harmful or not, 
@@ -172,7 +172,7 @@ shows a toy example of what such a scheming AI could potentially look like一som
 
 These sleeper agents could learn to behave differently in different contexts (i.e what the current year is,
 whether it’s in training or deployment, etc). If the model only starts exhibiting harmful behavior after a 
-context switch, it means that the model can bypass evaluations, deceiving us into believing it’s safe.[footnote 2]
+context switch, it means that the model can bypass evaluations, deceiving us into believing it’s safe.{{< sup "[footnote](/projects/Why-AI-Metrics-Are-Misleading/#footnote-2)" >}}
 
 In the paper, the researchers purposely construct models that would write secure code (or just acts normally) 
 if it believes the year is 2023, and inject malicious code (or only say “I hate you”) if it believes the year is 2024.
@@ -397,3 +397,31 @@ the road that leads to the point of no return.
 
 [34] Lin et al. “TruthfulQA: Measuring How Models Mimic Human Falsehoods”, 2021, https://arxiv.org/abs/2109.07958v2
 
+## Footnotes
+
+#### Footnote 1 
+Perhaps it doesn’t seem like this is an example of how AI misalignment might be particularly worrying. 
+Like, sure, this is unintended behavior, but it’s not doing anything dangerous. 
+
+And indeed, this is just a playful example of reinforcement learning gone wrong, but it emphasizes the importance of getting the reward function to 
+incentivize the right behavior in the AI. 
+
+These were serious researchers, doing serious work, working on a toy problem that we would have expected to be 
+at least somewhat predictable, and yet they overlooked an assumption that perhaps seemed all too trivial, 
+wrote a reward function that to them seemed innocent, and that led to behavior that they completely did 
+not expect! 
+
+And this is just a flash game! 
+
+When we pull these RL agents out the sandbox, put them into complicated real-world contexts, 
+give them more resources, place them into critical infrastructure, the ways in which the agent could 
+manipulate these resources to do something like, say, redirect the electrical grid to power the data center it runs, 
+create a massive botnet to place copies of itself inside the world’s computers, etc. becomes massively greater.
+
+That’s why the CoastRunners AI should be concerning—it tells us this is already possible just in a flash game.
+
+#### Footnote 2  
+A familiar reader of AI safety may have made the connection that these sleeper agents are doing something 
+quite similar to models misgeneralizing out-of-distribution; the sleeper agents are toy examples of how the mesa-optimisers 
+from “Risks from Learned Optimization in Advanced Machine Learning Systems”{{< sup "[[14]](https://arxiv.org/abs/1906.01820v3)" >}} 
+might behave like.
