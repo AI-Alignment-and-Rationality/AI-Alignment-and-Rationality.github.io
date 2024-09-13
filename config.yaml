@@ -3,6 +3,21 @@ languageCode: en-us
 title: Hanoi AI Safety Network
 theme: papermod
 
+markup:
+  goldmark:
+    extensions:
+      passthrough:
+        delimiters:
+          block:
+          - - \[
+            - \]
+          - - $$
+            - $$
+          inline:
+          - - \(
+            - \)
+        enable: true
+
 languages:
     en:
       LanguageName: "🇺🇸"
@@ -28,13 +43,13 @@ languages:
             name: "Dự án"
             url: /projects/
             weight: 30
+          - identifier: activities
+            name: "Hoạt động"
+            url: /activities/
+            weight: 40
           - identifier: members
             name: "Thành viên"
             url: "/members/"
-            weight: 40
-          - identifier: partners
-            name: ""
-            url: "/partners/"
             weight: 50
       contentDir: content/vi
       params:
@@ -54,9 +69,11 @@ languages:
               url: "/projects/"
             - name: "Thành viên"
               url: "/members/"
-                         
+
 params:
+  math: true
   ShowBreadCrumbs: true
+  ShowToc: true
   # ShowWordCount: true
   pluralizeListTitles: false
   enableEmoji: true
@@ -97,8 +114,8 @@ params:
     #   url: "https://www.openphilanthropy.org/"
     - name: "linkedin"
       url: "https://www.linkedin.com/company/ai-safety-and-rationality-students-hanoi/"
-    - name: "facebook"
-      url: "https://facebook.com" #PLACEHOLDER
+    # - name: "facebook"
+    #   url: "https://facebook.com" #PLACEHOLDER
     - name: "github"
       url: "https://github.com/AI-Alignment-and-Rationality"
     - name: "email"
@@ -118,15 +135,18 @@ menu:
     - name: Events
       url: /events/
       weight: 2
-    - name: Our Projects
+    - name: Our Work
       url: /projects/
       weight: 3
+    - name: Our Activities
+      url: /activities/
+      weight: 4
     - name: Our Team
       url: /members/
-      weight: 4
-    - name: Partners
-      url: /partners/
       weight: 5
+    # - name: Partners
+    #   url: /partners/
+    #   weight: 5
     # - name: Opportunities
     #   url: /opportunity/
     #   weight: 6
