@@ -59,7 +59,7 @@ to catastrophic misalignment
 </div>
 
 <div style="text-align: center;"> 
-A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/why-ai-metrics-are-misleading/footnote-1)" >}}
+A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/why-ai-metrics-are-misleading/#footnote-1)" >}}
 </div>
 
 It would seem to follow that the most obvious way to know whether a model is harmful or not, 
