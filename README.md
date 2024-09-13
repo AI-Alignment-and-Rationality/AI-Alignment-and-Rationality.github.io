@@ -30,12 +30,23 @@ If you have any further questions, please ping @qronox or @Gumperto in
 the Discord server in the #grebsite channel!
 
 ## To-do
-- Make the website look more presentable
-- Bio page for organisers and members (2 - 3 sentence desc, linkedin, maybe have pictures)
-- Touch up the research page (embed PDFs)
-- Technical blog posts
-- Opportunity board
-- Potential Vietnamese version for some things (hackathon announcements, etc)
+- [ ] Add content to About (from one pager)
+- [ ] Add section: Our activities (all external orgs get image + link)
+    - [ ] Reading discussion group
+        - [ ] Funded by OP
+    - [ ] Hackathons
+        - [ ] In collaboration with Apart Research
+        - [ ] Sponsored by OddlyNormal
+- [ ] Our Team:
+        - [ ] Organisers bio
+        - [ ] Members: one line desc
+- [ ] Add:
+        - [ ] Evals blog post
+        - [ ] rAInbolt blog post
+
+- [ ] Bio page for organisers and members (2 - 3 sentence desc, linkedin, maybe have pictures)
+- [ ] Touch up the research page (embed PDFs)
+- [ ] Technical blog posts
 
 ## License
 
