@@ -59,7 +59,7 @@ to catastrophic misalignment
 </div>
 
 <div style="text-align: center;"> 
-A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/Why-AI-Metrics-Are-Misleading/footnote-1)" >}}
+A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/why-ai-metrics-are-misleading/footnote-1)" >}}
 </div>
 
 It would seem to follow that the most obvious way to know whether a model is harmful or not, 
@@ -172,7 +172,7 @@ shows a toy example of what such a scheming AI could potentially look like一som
 
 These sleeper agents could learn to behave differently in different contexts (i.e what the current year is,
 whether it’s in training or deployment, etc). If the model only starts exhibiting harmful behavior after a 
-context switch, it means that the model can bypass evaluations, deceiving us into believing it’s safe.{{< sup "[footnote](/projects/Why-AI-Metrics-Are-Misleading/#footnote-2)" >}}
+context switch, it means that the model can bypass evaluations, deceiving us into believing it’s safe.{{< sup "[footnote](/projects/why-ai-metrics-are-misleading/#footnote-2)" >}}
 
 In the paper, the researchers purposely construct models that would write secure code (or just acts normally) 
 if it believes the year is 2023, and inject malicious code (or only say “I hate you”) if it believes the year is 2024.
