@@ -40,23 +40,23 @@ languages:
           - identifier: events
             name: "Sự kiện"
             url: /events/
-            weight: 20
+            weight: 30
           - identifier: projects
             name: "Dự án"
             url: /projects/
-            weight: 30
+            weight: 20
           - identifier: logs
             name: "Buổi họp"
             url: /logs/
-            weight: 40
-          - identifier: activities
-            name: "Hoạt động"
-            url: /activities/
             weight: 50
+          # - identifier: activities
+          #   name: "Hoạt động"
+          #   url: /activities/
+          #   weight: 50
           - identifier: members
             name: "Thành viên"
             url: "/members/"
-            weight: 60
+            weight: 40
       contentDir: content/vi
       params:
         languageAltTitle: "Tiếng Việt"
