@@ -13,8 +13,8 @@ draft: false
 
 <br>
 
-We are the Hanoi AI Safety Network (HAISN), an organization established for curious university students
-in Hanoi, Vietnam to meet and work towards safer AI.
+We are the Hanoi AI Safety Network (HAISN), an organization established in Hanoi, Vietnam 
+that aims towards building safer AI.
 
 We believe current AI development trends are are [highly unsafe](https://www.aisafety.com/), 
 posing a real threat of [catastrophic risks](https://www.safe.ai/work/statement-on-ai-risk). 
@@ -24,18 +24,15 @@ This is why HAISN was founded!
 
 We try to help advance the field of AI safety with various activities and programs. Our current activities include:
 
-- **AI Safety Intro Fellowship**: A weekly introductory reading and discussion group to AI Safety.
-Funded by [OpenPhilanthropy](https://www.openphilanthropy.org/).
+- **AI Safety Intro Fellowship**: A weekly introductory reading and discussion group to AI Safety for curious
+university students. Funded by [OpenPhilanthropy](https://www.openphilanthropy.org/).
 
-- **Career Guidance**: Support for your research and future exploration, such as compute to run your 
-AI experiments, pointers to relevant career opportunities, and access to a network of AI safety 
-researchers.
-
-- **Community Bookshelf**: Access to learning materials through our expansive community bookshelf.
+- **Support**: We provide access to learning materials (which includes our community bookshelf), 
+compute to run your AI experiments, pointers to relevant career opportunities, and access to a 
+network of AI safety researchers to support your research and future exploration. 
 
 - **Research Hackathons**: We facilitate monthly research hackathons in collaboration with 
-[Apart Research](https://www.apartresearch.com/).
-Funded by [OddlyNormal](https://oddly-podcast.com/).
+[Apart Research](https://www.apartresearch.com/).Funded by [OddlyNormal](https://oddly-podcast.com/).
 
 Whether you're an AI developer, researcher, or just an enthusiast, please feel free to reach out to us! 
 
