@@ -68,8 +68,6 @@ to catastrophic misalignment
 A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/why-ai-metrics-are-misleading/#footnote-1)" >}}
 </div>
 
-<br>
-
 It would seem to follow that the most obvious way to know whether a model is harmful or not, 
 and how harmful it is, is to test it directly! Indeed, some already existing benchmarks which 
 are already trying to do just that include: 
@@ -133,8 +131,6 @@ It’s a phenomenon whereupon a measure, being used instead as an optimization t
 Relevant xkcd{{< sup "[[22]](https://xkcd.com/2899/)" >}}
 </div>
 
-<br>
-
 Think school GPA (measure), how the intention was to be an indicator for the student’s long-term academic ability,
 how universities decided to base a large part of their admission process around it (becomes a target), incentivizing 
 students to optimize for maximal GPA by: cramming the night before exams, cheating on said exams, getting into a 
@@ -159,8 +155,6 @@ inflating tested LLMs’ accuracies in elementary mathematical reasoning by up t
 Notable models arranged by performance drop{{< sup "[[23]](https://arxiv.org/abs/2405.00332v3)" >}}
 </div>
 
-<br>
-
 More directly relevant to the topic at hand is Goodhart’s law applying to safety benchmarks. 
 As public interest in AI safety grows and safety regulations increase, companies may, instead of 
 actually making safer AI, focus on maximizing safety benchmarks instead. Behaviors like this, 
@@ -180,8 +174,6 @@ found that many benchmarks confuse capability gains with safety progress, enabli
 <div style="text-align: center;"> 
 What’s thought to be an improvement in safety is just collateral to default capabilities growth{{< sup "[[25]](https://arxiv.org/abs/2407.21792)" >}}
 </div>
-
-<br>
 
 Beyond just the dangers of Goodhart’s law, current evaluation paradigms lack robust protection 
 against more unconventional problems, one such problem being models that could 
@@ -210,8 +202,6 @@ RL finetuning, adversarial training).
 Visual illustration of the researchers’ process{{< sup "[[27]](https://arxiv.org/abs/2401.05566)" >}}
 </div>
 
-<br>
-
 <div style="text-align: center;"> 
     <img src="/evals/evals-sleeper-2.png" alt="Harmful behavior persists after safety training" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
 </div>
@@ -219,8 +209,6 @@ Visual illustration of the researchers’ process{{< sup "[[27]](https://arxiv.o
 <div style="text-align: center;"> 
 Harmful behavior persists after safety training{{< sup "[[27]](https://arxiv.org/abs/2401.05566)" >}}
 </div>
-
-<br>
 
 Further, they found that the persistence of harmful behavior is much weaker in smaller models, indicating 
 deceptive ability scales with general capabilities.
@@ -232,8 +220,6 @@ deceptive ability scales with general capabilities.
 <div style="text-align: center;"> 
 RL finetuning has the strongest effect on a small model{{< sup "[[27]](https://arxiv.org/abs/2401.05566)" >}}
 </div>
-
-<br>
 
 Unsettling, isn’t it? And concealing unsafe behavior isn’t the only form of deception these models 
 could take up to bypass our evaluations. We saw earlier that many benchmarks confuse capability 
@@ -283,8 +269,6 @@ while maintaining normal performance on control evaluations.
 Same model, same capabilities, performing worse on evaluations because they were told to{{< sup "[[29]](https://arxiv.org/abs/2406.07358)" >}}
 </div>
 
-<br>
-
 ***Takeaway:*** AI safety benchmarks are flawed because they’re easy to be gamed, abused, and 
 cannot account for many misalignment risks from AI systems, and hence not enough to inform us 
 of true AI safety progress.
@@ -310,8 +294,6 @@ other capabilities remain intact.
 The sandbagging model’s deceptive ability seems to break down after a certain point (after 0.0002 noise mean){{< sup "[[30]](https://www.apartresearch.com/project/sandbag-detection-through-model-degradation)" >}}
 </div>
 
-<br>
-
 - As a follow-up to their original sleeper agent paper in the previous section, Anthropic researchers 
 found that simple probes can catch sleeper agents by “looking” inside the transformer’s residual stream, 
 without needing to know any special knowledge about the sleeper agent’s training or its trigger{{< sup "[[31]](https://www.anthropic.com/research/probes-catch-sleeper-agents)" >}}.
@@ -324,8 +306,6 @@ without needing to know any special knowledge about the sleeper agent’s traini
 The probe is able to catch the sleeper agent (in this case one that injected malicious code) during deployment 
 (as seen through (c), where there is a noticeable change in detector activation){{< sup "[[31]](https://www.anthropic.com/research/probes-catch-sleeper-agents)" >}}
 </div>
-
-<br>
 
 - Haimes et al. (2024){{< sup "[[32]](https://jacob-haimes.github.io/work/benchmark-inflation/) [[33]](https://jacob-haimes.github.io/uploads/benchmark-inflation_extended-abstract_dmlr_v1.0.pdf)" >}} 
 set out to see how inflated safety benchmark scores are compared to actual LLM performance and 
@@ -346,8 +326,6 @@ accurate track of models’ true capabilities.
 <div style="text-align: center;"> 
 Accuracy gap between TruthfulQA and Retro-TruthfulQA{{< sup "[[32]](https://jacob-haimes.github.io/work/benchmark-inflation/)" >}}
 </div>
-
-<br>
 
 The list goes on, and more work to ameliorate the evaluations problem is undoubtedly being carried out as 
 we speak (type?). Nevertheless, what we have now are just a few narrow implementations that only address 
