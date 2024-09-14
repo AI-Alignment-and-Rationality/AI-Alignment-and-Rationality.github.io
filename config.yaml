@@ -60,6 +60,7 @@ languages:
       contentDir: content/vi
       params:
         languageAltTitle: "Tiếng Việt"
+        DateFormat: "2/1/2006"
         profilemode:
           enabled: true
           title: "Hanoi AI Safety Network" # optional default will be site title
