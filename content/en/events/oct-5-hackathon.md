@@ -39,6 +39,6 @@ Whether you're an AI developer, researcher, or enthusiast, join us for a weekend
 work that could help shape the future of trustworthy AI. We can't wait to see what you create!
 
 # Location
-NovaUp - Cho thuê phòng đào tạo, phòng hội thảo, phòng sự kiện
+NovaUp - Cho thuê phòng đào tạo, phòng hội thảo, phòng sự kiện\
 Tầng 2, Tòa, 22 P. Thành Công, Thành Công, Ba Đình, Hà Nội 118904, Vietnam
 Room Nova Thành Công 4
