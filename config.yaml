@@ -141,19 +141,19 @@ menu:
       weight: 1
     - name: Events
       url: /events/
-      weight: 2
+      weight: 3
     - name: Our Work
       url: /projects/
-      weight: 3
+      weight: 2
     - name: Logs
       url: /logs/
-      weight: 4
-    - name: Our Activities
-      url: /activities/
       weight: 5
+    # - name: Our Activities
+    #   url: /activities/
+    #   weight: 5
     - name: Our Team
       url: /members/
-      weight: 6
+      weight: 4
     # - name: Partners
     #   url: /partners/
     #   weight: 5
