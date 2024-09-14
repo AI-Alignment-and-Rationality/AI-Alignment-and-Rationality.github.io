@@ -45,14 +45,18 @@ languages:
             name: "Dự án"
             url: /projects/
             weight: 30
+          - identifier: logs
+            name: "Buổi họp"
+            url: /logs/
+            weight: 40
           - identifier: activities
             name: "Hoạt động"
             url: /activities/
-            weight: 40
+            weight: 50
           - identifier: members
             name: "Thành viên"
             url: "/members/"
-            weight: 50
+            weight: 60
       contentDir: content/vi
       params:
         languageAltTitle: "Tiếng Việt"
@@ -140,12 +144,15 @@ menu:
     - name: Our Work
       url: /projects/
       weight: 3
+    - name: Logs
+      url: /logs/
+      weight: 4
     - name: Our Activities
       url: /activities/
-      weight: 4
+      weight: 5
     - name: Our Team
       url: /members/
-      weight: 5
+      weight: 6
     # - name: Partners
     #   url: /partners/
     #   weight: 5
