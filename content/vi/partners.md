@@ -1,5 +1,4 @@
 ---
-title: ""
-date: 2024-31-08
+title: "Đối tác"
 draft: false
 ---
