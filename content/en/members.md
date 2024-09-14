@@ -5,7 +5,10 @@ draft: false
 <div style="font-size: 30px; font-weight: bold; text-align: center;">Jord</div>
 
 Jord is a previous [Non-trivial Fellow](https://www.non-trivial.org/program) and 
-[presenter](https://www.youtube.com/watch?v=d-f-elaiIt8&t=1448s) at [SATML 2023](https://satml.org/2023/). 
+presenter at [SATML 2023](https://satml.org/2023/). 
+
+Recently, he was invited by the United Nations Office for Disarmament Affairs to present his vision on 
+future AI risks to stakeholders and Korean youth at the [REAIM 2024 summit](https://www.reaim2024.kr/reaimeng/index.do)
 
 Currently, he is pursuing [LLM evaluations](https://www.apartresearch.com/project/rainboltbench-benchmarking-user-location-inference-through-single-images) 
 [research](https://www.apartresearch.com/project/cross-lingual-generalizability-of-the-sadder-benchmark) 
@@ -35,7 +38,7 @@ in one of Apart Research’s research hackathon.
 
 Interested in machine learning, agent foundations, and mechanistic interpretability. 
 
-Current maintainer for the group’s website.
+Current maintainer for the group’s [website](https://ai-alignment-and-rationality.github.io/).
 
 <div style="font-size: 30px; font-weight: bold; text-align: center;">Mogu</div>
 
