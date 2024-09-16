@@ -32,7 +32,7 @@ compute to run your AI experiments, pointers to relevant career opportunities, a
 network of AI safety researchers to support your research and future exploration. 
 
 - **Research Hackathons**: We facilitate monthly research hackathons in collaboration with 
-[Apart Research](https://www.apartresearch.com/).Funded by [OddlyNormal](https://oddly-podcast.com/).
+[Apart Research](https://www.apartresearch.com/). Funded by [OddlyNormal](https://oddly-podcast.com/).
 
 Whether you're an AI developer, researcher, or just an enthusiast, please feel free to reach out to us! 
 
@@ -40,3 +40,85 @@ Whether you're an AI developer, researcher, or just an enthusiast, please feel f
 - [**Email**](mailto:jordnguyen43@gmail.com)
 
 Let's all shape the future of safe and trustworthy AI!
+
+<div style="font-size: 50px; font-weight: bold; text-align: center;">Our Partners and Sponsors</div>
+
+<br>
+
+<!--Image-left: Apart-->
+<div style="display: flex; align-items: flex-start; width: 100%;">
+    <!-- Image Container -->
+    <img style="width: 40%; margin-right: 10px;" src="/partners/apart.png" alt="Apart Research's Logo">
+    <!-- Text Container -->
+    <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Centered Text Box -->
+        <div style="text-align: center; font-size: 25px; font-weight: bold;">
+            <a href="https://www.apartresearch.com/">Apart Research</a>
+        </div>
+        <!-- Left-aligned Text Box next to the Image -->
+        <div style="text-align: left;">
+            Apart is a decentralized laboratory mobilizing research at the frontier of AI safety.
+            HAISN hosts the Hanoi node for Apart's monthly hackathons.
+        </div>
+    </div>
+</div>
+
+<br>
+
+<!-- Image-right: OddlyNormal-->
+<div style="display: flex; align-items: flex-start; width: 100%;">
+     <!-- Text Container -->
+    <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Centered Text Box -->
+        <div style="text-align: center; font-size: 25px; font-weight: bold;">
+            <a href="https://oddly-podcast.com/">Oddly Normal</a>
+        </div>
+        <!-- Left-aligned Text Box next to the Image -->
+        <div style="text-align: left;">
+            Oddly Normal is a podcast and book publisher based in Vietnam.
+            HAISN's hackathon activities are funded by Oddly Normal.
+        </div>
+    </div>   
+    <!-- Image Container -->
+    <img style="width: 40%; margin-left: 10px;" src="/partners/oddly-normal.png" alt="OddlyNormal Podcast's Logo">
+</div>
+
+<br>
+
+<!--Image-left: AI Safety Tokyo-->
+<div style="display: flex; align-items: flex-start; width: 100%;">
+    <!-- Image Container -->
+    <img style="width: 40%; margin-right: 10px;" src="/partners/ais-tokyo.png" alt="AI Safety Tokyo's Logo">
+    <!-- Text Container -->
+    <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Centered Text Box -->
+        <div style="text-align: center; font-size: 25px; font-weight: bold;">
+            <a href="https://aisafety.tokyo/">AI Safety Tokyo</a>
+        </div>
+        <!-- Left-aligned Text Box next to the Image -->
+        <div style="text-align: left;">
+            AI Safety Tokyo is an AI Safety organization based in Tokyo, Japan.
+            HAISN works alongside connections in AI Safety Tokyo to strive for safer AI.
+        </div>
+    </div>
+</div>
+
+<br>
+
+<!-- Image-right: OpenPhilanthropy-->
+<div style="display: flex; align-items: flex-start; width: 100%;">
+     <!-- Text Container -->
+    <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Centered Text Box -->
+        <div style="text-align: center; font-size: 25px; font-weight: bold;">
+            <a href="https://www.openphilanthropy.org/">Open Philanthropy</a>
+        </div>
+        <!-- Left-aligned Text Box next to the Image -->
+        <div style="text-align: left;">
+            Open Philanthropy is a research and grantmaking foundation that aims to make the highest impact.
+            HAISN's AI Safety Introduction Fellowship is funded by Open Philanthropy.
+        </div>
+    </div>   
+    <!-- Image Container -->
+    <img style="width: 45%; margin-left: 10px;" src="/partners/open-phil.png" alt="Open OpenPhilanthropy's Logo">
+</div>
