@@ -34,13 +34,6 @@ network of AI safety researchers to support your research and future exploration
 - **Research Hackathons**: We facilitate monthly research hackathons in collaboration with 
 [Apart Research](https://www.apartresearch.com/). Funded by [OddlyNormal](https://oddly-podcast.com/).
 
-Whether you're an AI developer, researcher, or just an enthusiast, please feel free to reach out to us! 
-
-- [**LinkedIn**](https://www.linkedin.com/company/hanoi-ai-safety-network)
-- [**Email**](mailto:jordnguyen43@gmail.com)
-
-Let's all shape the future of safe and trustworthy AI!
-
 <div style="font-size: 50px; font-weight: bold; text-align: center;">Our Partners and Sponsors</div>
 
 <br>
@@ -122,3 +115,36 @@ Let's all shape the future of safe and trustworthy AI!
     <!-- Image Container -->
     <img style="width: 45%; margin-left: 10px;" src="/partners/open-phil.png" alt="Open OpenPhilanthropy's Logo">
 </div>
+
+<br>
+
+<!--Image-left: EA Vietnam-->
+<div style="display: flex; align-items: flex-start; width: 100%;">
+    <!-- Image Container -->
+    <img style="width: 40%; margin-right: 10px;" src="/partners/ea-vietnam.png" alt="EA Vietnam's Logo">
+    <!-- Text Container -->
+    <div style="flex: 1; display: flex; flex-direction: column;">
+        <!-- Centered Text Box -->
+        <div style="text-align: center; font-size: 25px; font-weight: bold;">
+            <a href="https://www.eavietnam.org/">EA Vietnam</a>
+        </div>
+        <!-- Left-aligned Text Box next to the Image -->
+        <div style="text-align: left;">
+            EA Vietnam is a community for effective altruism (which has close ties with AI Safety) based in Vietnam. 
+        </div>
+    </div>
+</div>
+
+<br>
+
+<div style="font-size: 50px; font-weight: bold; text-align: center;">Contact us</div>
+
+<br>
+
+Whether you're an AI developer, researcher, or just an enthusiast, please feel free to reach out to us! 
+
+- [**General interest form**](https://forms.gle/H5nz6QVuNibafBfr8)
+- [**LinkedIn**](https://www.linkedin.com/company/hanoi-ai-safety-network)
+- [**Email**](mailto:jordnguyen43@gmail.com)
+
+Let's all shape the future of safe and trustworthy AI!
