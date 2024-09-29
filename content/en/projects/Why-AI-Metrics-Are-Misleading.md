@@ -2,8 +2,9 @@
 title : "Why AI Metrics Are Misleading"
 date : 2024-09-12
 toc: true
-author: ["Huu Khiem 'Gumperto' Hoang", "Zedpoopy", "NamDTD", "NotAd", "Tost", "Jord Nguyen"]
-draft : false 
+author: ["Khiem", "Zed", "Nam", "NotAd", "Tost", "Jord Nguyen"]
+draft : false
+weight: 10
 ---
 ## What is a benchmark?
 In the world of AI, we often find it helpful to talk about how well a model performs a task. 
@@ -118,6 +119,8 @@ Right?
 <div style="text-align: center;"> 
     <em>“When a measure becomes a target, it ceases to be a good measure.”</em>
 </div>
+
+<br>
 
 That is Goodhart’s law{{< sup "[[19]](https://en.wikipedia.org/wiki/Goodhart%27s_law)" >}}, a beloved
 staple of many arguments in AI Safety{{< sup "[[20]](https://www.lesswrong.com/posts/Eu6CvP7c7ivcGM3PJ/goodhart-s-law-in-reinforcement-learning) [[21]](https://www.lesswrong.com/posts/NqQxTn5MKEYhSnbuB/goodhart-s-curse-and-limitations-on-ai-alignment)" >}}. 

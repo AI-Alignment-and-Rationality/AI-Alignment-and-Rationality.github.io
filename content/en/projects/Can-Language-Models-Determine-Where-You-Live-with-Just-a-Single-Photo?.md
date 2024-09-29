@@ -3,7 +3,8 @@ title : "Can Language Models Determine Where You Live with Just a Single Photo?"
 date : 2024-08-28
 toc: true
 author: ["Le 'Qronox' Lam", "Aleksandr Popov", "Jord Nguyen", "Trung Dung 'mogu' Hoang", "Marcel M", "Felix Michalak"]
-draft : false 
+draft : false
+weight: 20
 ---
 ## TL;DR
 Members from HAISN participated in a research sprint where they tried to assess AI models’ ability 
