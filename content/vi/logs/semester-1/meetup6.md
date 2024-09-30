@@ -15,7 +15,6 @@ draft : false
 - We debated with each other on whether the most important problems of AI Safety is short-medium-term (economic, sociopolitical) or long-term (irreversible turning point in human history), whether that problem would be infrastructural or existential.
 - In the end we found agreement in the fact that working on AI Safety is an important endeavor, whether or not AI risk is existential.
 
-## Scalable oversight & Governance
+## Scalable oversight
 
 - We watched Robert Miles’ “Iterated amplification and distillation” and read through week 4 of the AI safety fundamentals course
-- We talked some more talk about governance policies

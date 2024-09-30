@@ -6,7 +6,7 @@ draft: false
 
 ## Preparation (20/5/2024 - 24/5/2024)
 
-- Since the hackathon starts two weeks off the foot of the previous Governance Jam hosted by Apart, most server members did not anticipate intensive participation.
+- Since the hackathon starts two weeks off the foot of the previous jam hosted by Apart, most server members did not anticipate intensive participation.
 - Nevertheless, Qronox did come up with the idea to fetch images from around the world and then feed that either into a special use AI model (like GeoSpy.ai) or into a multimodal model (like GPT-4o) to see how well the model infers user location from these images.
 
 ## Jam time! (25/5/2024 - 26/5/2024)

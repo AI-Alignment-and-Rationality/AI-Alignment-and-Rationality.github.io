@@ -1,5 +1,5 @@
 ---
-title : 'Session 8: Governance & Interpretability'
+title : 'Session 8: Policy & Interpretability'
 date : 2024-04-23T20:02:59+07:00
 draft : false 
 ---
@@ -10,7 +10,7 @@ We initiated our newer members - Welsh and Kappie - on the basics of AI and AI a
 
 ## Self-research
 
-- We spent the first half of the meeting (2pm - 3:45pm) researching and taking notes on topics that we found interesting. Generally, the group was split into two streams, as per our established activity pipeline: Technical and Governance.
+- We spent the first half of the meeting (2pm - 3:45pm) researching and taking notes on topics that we found interesting. Generally, the group was split into two streams, as per our established activity pipeline: Stream 1 and Stream 2.
 
 - Here’s a list of what each of us did research on:
   - Welsh: AI watermarking

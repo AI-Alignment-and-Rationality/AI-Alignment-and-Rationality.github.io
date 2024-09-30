@@ -1,5 +1,5 @@
 ---
-title : 'Session 10: AI governance jam'
+title : 'Session 10: Hackathon'
 date : 2024-05-09T20:58:07+07:00
 draft : false 
 ---
@@ -9,7 +9,7 @@ draft : false
 
 Despite the many potential benefits of the technology (such as equalizing opportunity, creating wealth, and improving coordination), we are also facing significant risks from AI.
 
-Together, we will be hacking away to demonstrate and mitigate the challenges that arise in the meeting between AI and democracy, while trying to project these risks into the future.
+Together, we will be hacking away to demonstrate and mitigate the challenges that arise in AI, while trying to project these risks into the future.
 
 ## Summary
 

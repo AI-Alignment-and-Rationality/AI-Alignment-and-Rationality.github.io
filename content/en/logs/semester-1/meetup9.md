@@ -1,12 +1,12 @@
 ---
-title : 'Session 9: Preparation for Apart Research’s upcoming AI x Democracy research hackathon '
+title : 'Session 9: Preparation for Apart Research’s upcoming research hackathon '
 date : 2024-04-23T20:04:07+07:00
 draft : false 
 ---
 
 ## Brainstorming Ideas
 
-- We read a brief post from and tried to come up with potential ideas to work on for Apart Research’s upcoming AI x Democracy research hackathon from May 3rd to May 5th. Here’s some ideas we came up with and discussed: 
+- We read a brief post from and tried to come up with potential ideas to work on for Apart Research’s upcoming research hackathon from May 3rd to May 5th. Here’s some ideas we came up with and discussed: 
   - Kappie & Welsh: Conduct an opinion survey on some demographic of local law students on their use of AI (specifically LLMs) in their academic work, and then write a report based on their findings.
   - Purplechair: Train a demo Twitter (X) bot to test its ability to stifle political discourse (spam, shutting the conversation down aggressively, etc.)
   - Purplechair: Replicate pre-existing findings on political bias in LLMs for non-Western democracies (Brazil, South Korea, etc.)
@@ -18,6 +18,6 @@ draft : false
 
 - We couldn’t fully carry out our activity agenda as usual as the brainstorming session took a little too much time, but we spared some time to do our self-research:
   - Jord & Purplechair: Filled out their MATS applications
-  - Kappie & Welsh: Read through the Governance curriculum of BlueDot Impact’s AI Safety Fundamentals Course.
+  - Kappie & Welsh: Read through BlueDotImpact's AI Safety course on policy.
   - Mogu: Read through some miscellaneous technical research
   - Gumperto: Tried to get started on the ARENA 3.0 curriculum

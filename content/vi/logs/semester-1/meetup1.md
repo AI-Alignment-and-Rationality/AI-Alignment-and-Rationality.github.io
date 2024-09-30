@@ -38,7 +38,7 @@ As of right now, there is no good solution to this problem.
 
 - Agent foundations  
 *Mathematics for figuring out what an agent is or does*
-- AI governance, policy  
+- AI policy  
 *Legal stuff for prevention of AI misuse and regulating AI development*
 - Concept-based interpretability  
 *What the AI is doing; in terms of high-level “features”, as opposed to circuits (mech-interp)*
