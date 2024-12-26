@@ -4,7 +4,7 @@ date : 2024-08-28
 toc: true
 author: ["Le 'Qronox' Lam", "Aleksandr Popov", "Jord Nguyen", "Trung Dung 'mogu' Hoang", "Marcel M", "Felix Michalak"]
 draft : false
-weight: 20
+weight: 200
 ---
 ## TL;DR
 Members from HAISN participated in a research sprint where they tried to assess AI models’ ability 

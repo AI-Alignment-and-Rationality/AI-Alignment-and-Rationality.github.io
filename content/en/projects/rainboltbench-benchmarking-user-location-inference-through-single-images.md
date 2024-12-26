@@ -2,7 +2,7 @@
 title : 'rAInboltBench: Benchmarking user location inference through single images'
 date : 2024-05-27
 draft : false  
-weight: 30
+weight: 300
 ---
 
 **Abstract**
