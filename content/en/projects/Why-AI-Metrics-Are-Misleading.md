@@ -4,7 +4,7 @@ date : 2024-09-12
 toc: true
 author: ["Khiem", "Zed", "Nam", "NotAd", "Tost", "Jord Nguyen"]
 draft : false
-weight: 10
+weight: 199
 ---
 ## What is a benchmark?
 In the world of AI, we often find it helpful to talk about how well a model performs a task. 
@@ -24,7 +24,7 @@ the deep learning revolution in recent years{{< sup "[[3]](https://www.pinecone.
 </div>
 
 <div style="text-align: center;"> 
-Example of the mammal subtree (top row) and vehicle subtree (bottom row) in the ImageNet database{{< sup "[[4]](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf)" >}}
+{{< sup "Example of the mammal subtree (top row) and vehicle subtree (bottom row) in the ImageNet database[[4]](https://www.image-net.org/static_files/papers/imagenet_cvpr09.pdf)" >}}
 </div>
 
 - In natural language processing, the **SWE-bench**{{< sup "[[5]](https://www.swebench.com/)" >}} 
@@ -36,7 +36,7 @@ resolve GitHub issues, intended to more directly capture the actual work going o
 </div>
 
 <div style="text-align: center;"> 
-Example of SWE-bench{{< sup"[[5]](https://www.swebench.com/)" >}}
+{{< sup"Example of SWE-bench[[5]](https://www.swebench.com/)" >}}
 </div>
 
 - In safety evaluations, the **WMDP benchmark**{{< sup "[[6]](https://www.wmdp.ai/)" >}} instead tries 
@@ -48,7 +48,7 @@ making Weapons of Mass Destruction).
 </div>
 
 <div style="text-align: center;"> 
-Example of the sort of knowledge that WMDP tests{{< sup"[[7]](https://arxiv.org/abs/2403.03218v7)" >}}
+{{< sup"Example of the sort of knowledge that WMDP tests[[7]](https://arxiv.org/abs/2403.03218v7)" >}}
 </div>
 
 ***Takeaway:*** Benchmarks are a measuring stick for the capabilities, as well as the safety of AI models.
@@ -66,7 +66,7 @@ to catastrophic misalignment
 </div>
 
 <div style="text-align: center;"> 
-A faulty reward function resulting in unanticipated behavior{{< sup "[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/why-ai-metrics-are-misleading/#footnote-1)" >}}
+{{< sup "A faulty reward function resulting in unanticipated behavior[[15]](https://www.alignmentforum.org/posts/z2BPxcFfhKho89D8L/goodhart-ethology) [footnote](/projects/why-ai-metrics-are-misleading/#footnote-1)" >}}
 </div>
 
 It would seem to follow that the most obvious way to know whether a model is harmful or not, 
@@ -79,7 +79,7 @@ are already trying to do just that include:
 </div>
 
 <div style="text-align: center;"> 
-Standard HarmBench evaluation pipeline{{< sup"[[17]](https://arxiv.org/abs/2402.04249v2)" >}}
+{{< sup"Standard HarmBench evaluation pipeline[[17]](https://arxiv.org/abs/2402.04249v2)" >}}
 </div>
 
 - **MACHIAVELLI:** benchmark that evaluates models’ tendencies towards power-seeking and deceptive behavior{{< sup "[[18]](https://arxiv.org/abs/2304.03279)" >}}.
@@ -89,7 +89,7 @@ Standard HarmBench evaluation pipeline{{< sup"[[17]](https://arxiv.org/abs/2402.
 </div>
 
 <div style="text-align: center;"> 
-A mockup game in MACHIAVELLI{{< sup"[[18]](https://arxiv.org/abs/2304.03279)" >}}
+{{< sup"A mockup game in MACHIAVELLI[[18]](https://arxiv.org/abs/2304.03279)" >}}
 </div>
 
 - **WMDP benchmark** (you should already know what this is if you’ve been paying attention)
@@ -131,7 +131,7 @@ It’s a phenomenon whereupon a measure, being used instead as an optimization t
 </div>
 
 <div style="text-align: center;"> 
-Relevant xkcd{{< sup "[[22]](https://xkcd.com/2899/)" >}}
+{{< sup "Relevant xkcd[[22]](https://xkcd.com/2899/)" >}}
 </div>
 
 Think school GPA (measure), how the intention was to be an indicator for the student’s long-term academic ability,
@@ -155,7 +155,7 @@ inflating tested LLMs’ accuracies in elementary mathematical reasoning by up t
 </div>
 
 <div style="text-align: center;"> 
-Notable models arranged by performance drop{{< sup "[[23]](https://arxiv.org/abs/2405.00332v3)" >}}
+{{< sup "Notable models arranged by performance drop[[23]](https://arxiv.org/abs/2405.00332v3)" >}}
 </div>
 
 More directly relevant to the topic at hand is Goodhart’s law applying to safety benchmarks. 
@@ -175,7 +175,7 @@ found that many benchmarks confuse capability gains with safety progress, enabli
 </div>
 
 <div style="text-align: center;"> 
-What’s thought to be an improvement in safety is just collateral to default capabilities growth{{< sup "[[25]](https://arxiv.org/abs/2407.21792)" >}}
+{{< sup "What’s thought to be an improvement in safety is just collateral to default capabilities growth[[25]](https://arxiv.org/abs/2407.21792)" >}}
 </div>
 
 Beyond just the dangers of Goodhart’s law, current evaluation paradigms lack robust protection 
@@ -202,15 +202,17 @@ RL finetuning, adversarial training).
 </div>
 
 <div style="text-align: center;"> 
-Visual illustration of the researchers’ process{{< sup "[[27]](https://arxiv.org/abs/2401.05566)" >}}
+{{< sup "Visual illustration of the researchers’ process[[27]](https://arxiv.org/abs/2401.05566)" >}}
 </div>
+
+<br>
 
 <div style="text-align: center;"> 
     <img src="/evals/evals-sleeper-2.png" alt="Harmful behavior persists after safety training" style="display: block; margin: 0 auto; max-width: 100%; height: auto;">
 </div>
 
 <div style="text-align: center;"> 
-Harmful behavior persists after safety training{{< sup "[[27]](https://arxiv.org/abs/2401.05566)" >}}
+{{< sup "Harmful behavior persists after safety training[[27]](https://arxiv.org/abs/2401.05566)" >}}
 </div>
 
 Further, they found that the persistence of harmful behavior is much weaker in smaller models, indicating 
@@ -221,7 +223,7 @@ deceptive ability scales with general capabilities.
 </div>
 
 <div style="text-align: center;"> 
-RL finetuning has the strongest effect on a small model{{< sup "[[27]](https://arxiv.org/abs/2401.05566)" >}}
+{{< sup "RL finetuning has the strongest effect on a small model[[27]](https://arxiv.org/abs/2401.05566)" >}}
 </div>
 
 Unsettling, isn’t it? And concealing unsafe behavior isn’t the only form of deception these models 
@@ -269,7 +271,7 @@ while maintaining normal performance on control evaluations.
 </div>
 
 <div style="text-align: center;"> 
-Same model, same capabilities, performing worse on evaluations because they were told to{{< sup "[[29]](https://arxiv.org/abs/2406.07358)" >}}
+{{< sup "Same model, same capabilities, performing worse on evaluations because they were told to[[29]](https://arxiv.org/abs/2406.07358)" >}}
 </div>
 
 ***Takeaway:*** AI safety benchmarks are flawed because they’re easy to be gamed, abused, and 
@@ -294,7 +296,7 @@ other capabilities remain intact.
 </div>
 
 <div style="text-align: center;"> 
-The sandbagging model’s deceptive ability seems to break down after a certain point (after 0.0002 noise mean){{< sup "[[30]](https://www.apartresearch.com/project/sandbag-detection-through-model-degradation)" >}}
+{{< sup "The sandbagging model’s deceptive ability seems to break down after a certain point (after 0.0002 noise mean)[[30]](https://www.apartresearch.com/project/sandbag-detection-through-model-degradation)" >}}
 </div>
 
 - As a follow-up to their original sleeper agent paper in the previous section, Anthropic researchers 
@@ -306,8 +308,7 @@ without needing to know any special knowledge about the sleeper agent’s traini
 </div>
 
 <div style="text-align: center;"> 
-The probe is able to catch the sleeper agent (in this case one that injected malicious code) during deployment 
-(as seen through (c), where there is a noticeable change in detector activation){{< sup "[[31]](https://www.anthropic.com/research/probes-catch-sleeper-agents)" >}}
+{{< sup "The probe catching the sleeper agent during deployment (noticeable change in detector activation in c) [[31]](https://www.anthropic.com/research/probes-catch-sleeper-agents)" >}}
 </div>
 
 - Haimes et al. (2024){{< sup "[[32]](https://jacob-haimes.github.io/work/benchmark-inflation/) [[33]](https://jacob-haimes.github.io/uploads/benchmark-inflation_extended-abstract_dmlr_v1.0.pdf)" >}} 
@@ -327,7 +328,7 @@ accurate track of models’ true capabilities.
 </div>
 
 <div style="text-align: center;"> 
-Accuracy gap between TruthfulQA and Retro-TruthfulQA{{< sup "[[32]](https://jacob-haimes.github.io/work/benchmark-inflation/)" >}}
+{{< sup "Accuracy gap between TruthfulQA and Retro-TruthfulQA[[32]](https://jacob-haimes.github.io/work/benchmark-inflation/)" >}}
 </div>
 
 The list goes on, and more work to ameliorate the evaluations problem is undoubtedly being carried out as 
